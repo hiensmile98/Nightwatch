@@ -2,3 +2,5 @@
 reports
 # ignore logs
 *.log
+# ignore node_module
+node_module

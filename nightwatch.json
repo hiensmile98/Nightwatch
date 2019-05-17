@@ -72,17 +72,17 @@
         "retryAssertionTimeout": 5000
       },
       "desiredCapabilities": {
-        "browserName": "chrome",
+        "browserName": "firefox",
         "javascriptEnabled": true,
         "acceptSslCerts": true
       }
     },
-    "firefox": {
+    "chrome": {
       "desiredCapabilities": {
-        "browserName": "firefox",
+        "browserName": "chrome",
         "javascriptEnabled": true,
         "acceptSslCerts": true,
-        "firefoxOptions": {
+        "chromeOptions": {
           "args": [
             "disable-web-security",
             "ignore-certificate-errors",
