@@ -72,38 +72,22 @@
         "retryAssertionTimeout": 5000
       },
       "desiredCapabilities": {
-        "browserName": "firefox",
+        "browserName": "chrome",
         "javascriptEnabled": true,
         "acceptSslCerts": true
       }
     },
-    "chrome": {
+    "firefox": {
       "desiredCapabilities": {
-        "browserName": "chrome",
+        "browserName": "firefox",
         "javascriptEnabled": true,
         "acceptSslCerts": true,
-        "chromeOptions": {
+        "firefoxOptions": {
           "args": [
             "disable-web-security",
             "ignore-certificate-errors",
             "--test-type"
           ]
-        }
-      },
-      "firefox": {
-        "desiredCapabilities": {
-          "browserName": "firefox",
-          "marionette": true,
-          "javascriptEnabled": true,
-          "acceptSslCerts": true
-        }
-      },
-      "ie": {
-        "desiredCapabilities": {
-          "browserName": "internet explorer",
-          "marionette": true,
-          "javascriptEnabled": true,
-          "acceptSslCerts": true
         }
       }
     },
