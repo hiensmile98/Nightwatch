@@ -10,7 +10,7 @@
     "test": "node nightwatch ./tests -r ./html-reporter.js -e chrome",
     "galen": "galen",
     "test-galen": "galen test tests/galen/post/post.test.js --htmlreport reports/galen ",
-    "test-user": "node nightwatch tests/nightwatch/users/adminUserLoginTest.js -e default "
+    "test-category": "node nightwatch tests/nightwatch/categories -e default "
   },
   "dependencies": {
     "@rpii/nightwatch-html-reporter": "^0.9.3",
